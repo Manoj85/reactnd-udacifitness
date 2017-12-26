@@ -70,7 +70,7 @@ function mapDispatchToProps (dispatch, { navigation }) {
                 ? getDailyReminderValue()
                 : null
         })),
-        goBack: () => navigation.goBack(),
+        goBack: () => navigation.goBack()
     }
 }
 
